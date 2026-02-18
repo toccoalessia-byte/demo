@@ -1,4 +1,4 @@
-package it.scuola.demo;
+package com.example.demo;
 
 import java.util.Map;
 import org.springframework.web.bind.annotation.GetMapping;
