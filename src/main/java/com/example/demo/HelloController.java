@@ -17,8 +17,15 @@ public class  HelloController {
     @GetMapping("/api/goodmorning")
     public Map<String, Object> goodmorning() {
         return Map.of(
-                "message", "GoodMorning dalla API Spring!",
+                "message", "Oggi è 18 febbraio!",
                 "ok", true
         );
     }
-}
+    @GetMapping("/api/goodnight")
+    public Map<String, Object> goodnight() {
+        return Map.of(
+                "message", "Buona notte!",
+                "ok", true
+        );
+    }
+    }
