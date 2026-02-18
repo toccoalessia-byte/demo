@@ -28,4 +28,11 @@ public class  HelloController {
                 "ok", true
         );
     }
+    @GetMapping("/api/goodafternoon")
+    public Map<String, Object> goodafternoon() {
+        return Map.of(
+                "message", "Buon pomeriggio!",
+                "ok", true
+        );
+    }
     }
